@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+#carouselExampleControls{
+    margin: 3%;
+}
+.titleCarousel{
+    margin-bottom: 2%;
+    color: #b71c1c;
+}
+
+.fondo {
+    background-image: url(img/pag1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
